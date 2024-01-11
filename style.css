@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#para{
+    
+    position: sticky;
+    
+    top: 0;
+}
+
+header{
+    background-color: aqua;
+    height: 50px;
+    padding: 5px;
+ }
+   
+header h1{
+    color: crimson;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    
+}
+.row{
+    background-color: coral;
+    height: 700px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+   position: relative;
+}
+.col{
+    background-color: darkviolet;
+    height: 450px;
+    margin: 10px;
+    padding: 20px;
+    
+    
+    
+}
+img{
+    padding: 10px;
+    border-radius: 10%;
+}
+h2{
+    color: gold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    color: rgb(56, 148, 155);
+    margin: 5px;
+    font-size: larger;
+    text-align: center;
+}
+#btn{
+    background-color: lightseagreen;
+    padding: 5px;
+    border-radius: 10%;
+    color: rgb(165, 35, 2);
+    margin-left: 70px;
+
+}
+h2:hover{
+    color: chocolate;
+}
+h1:hover{
+    color: rgb(7, 6, 5);
+}
+h3:hover{
+    color: darkmagenta;
+}
+h4:hover{
+    color: chocolate;
+}
+p:hover{
+    color: chocolate;
+}
+footer{
+    background-color: brown;
+    height: 120px;
+    width: 100%;
+}
+h3{
+    color: rgb(39, 39, 90);
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+p{
+    color: rgb(2, 1, 73);
+    font-style: italic;
+    margin: 10px;
+    font-size: large;
+}
+.banner{
+    background-image: url(https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/08/06104859/books.jpg);
+    height: 330px;
+    width: 100%;
+}
